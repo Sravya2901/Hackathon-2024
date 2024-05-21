@@ -60,15 +60,15 @@ function Router() {
 						</Route>
 					</Route>
 					<Route path="/" element={<MainLayout />}>
-						<Route index element={<Dashboard1Page />} />
+						<Route index element={<Dashboard4Page />} />
 						<Route path="samplePage" element={<SamplePage />} />
 
-						<Route path="dashboards/">
+						<Route path="features/">
 							<Route path="dashboard1" element={<Dashboard1Page />} />
 							<Route path="dashboard2" element={<Dashboard2Page />} />
 							<Route path="dashboard3" element={<Dashboard3Page />} />
-							<Route path="dashboard4" element={<Dashboard4Page />} />
-							<Route path="dashboard5" element={<Dashboard5Page />} />
+							<Route path="feature1" element={<Dashboard4Page />} />
+							<Route path="feature2" element={<Dashboard5Page />} />
 						</Route>
 
 						<Route path="components/">
