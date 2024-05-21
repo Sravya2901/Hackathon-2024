@@ -592,7 +592,8 @@ function VisitorsOpratingCard() {
 					}}
 				>
 					{(status) => (
-						<Typography
+            <div>
+              <Typography
 							variant="h2"
 							fontSize={30}
 							fontWeight={400}
@@ -603,6 +604,11 @@ function VisitorsOpratingCard() {
 						>
 							Air Quality Index(AQI) : {aqiData?.data?.aqi || 0}
 						</Typography>
+            <Typography style={{textAlign: 'center'}}>
+             Alert triggers when AQI is hazardous, greater than 300
+            </Typography>
+            </div>
+
 					)}
 				</ReactTransition>
 			</TransitionGroup>
