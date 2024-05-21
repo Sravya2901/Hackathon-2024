@@ -50,7 +50,7 @@ function NotificationsButton() {
 	  }, []);
 	
 	  useEffect(() => {
-		if (aqiData && aqiData?.status === 'ok' && aqiData?.data?.aqi > 20) {
+		if (aqiData && aqiData?.status === 'ok' && aqiData?.data?.aqi > 300) {
 			console.log('aqi')
 			notifications.unshift({
 				id: uuid(),
