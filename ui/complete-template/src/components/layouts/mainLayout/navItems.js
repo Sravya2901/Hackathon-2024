@@ -42,11 +42,11 @@ const NAV_LINKS_CONFIG = [
 			// },
 			{
 				title: 'Trigger Analysis & Navigation',
-				href: '/dashboards/dashboard4',
+				href: '/features/feature1',
 			},
 			{
-				title: 'Analytics & Well-Being',
-				href: '/dashboards/dashboard5',
+				title: 'Future Enhancements',
+				href: '/features/feature2',
 			},
 		],
 	},
